@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <title>Test</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="header-logo">
+                Aylien API NLP App
+            </div>
+            <div class="header-nav">
+                navigation
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <input id="name" type="text" name="input-name" value="" placeholder="News Source">
+                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                </form>
+            <section>
+                <section class="url-results">
+                    <ul>
+                        <li>
+                            <h3 id="polarity"></h3>
+                            <h3 id="polarity_confidence"></h3>
+                        </li>
+    
+                        <li>
+                            <h3 id="subjectivity"></h3>
+                            <h3 id="subjectivity_confidence"></h3>
+                        </li>
+                        <hr>
+                        <h3>News Text content Below</h3>
+                        <br>
+                        <h3 id="excerpt"></h3>
+                    </ul>
+                </section>
+        </main>
+
+        <footer>
+            <p>This is a footer</p>
+        </footer>
+
+    </body>
+</html>
